@@ -1,11 +1,12 @@
 import './App.css'
-import {Contact} from './components/Contact'
+import { Contact } from './components/Contact'
+import { Heading } from './components/Heading'
 
 function App() {
 
   return (
     <div>
-      <h1>Contact List</h1>
+      <Heading text="Contact List" />
       <Contact />
     </div>
   )
