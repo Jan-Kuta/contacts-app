@@ -1,11 +1,13 @@
 
-export const Contact = () => {
+export const Contact = (props) => {
+  const { name , email, phone} = props
+
   return (
     <div>
-      <h4>Jan Kuta</h4>
+      <h4>{name}</h4>
       <ul>
-        <li>Email: jan.kuta@email.cz</li>
-        <li>Phone: +420 123 456 789</li>
+        <li>Email: {email}</li>
+        <li>Phone: {phone}</li>
       </ul>
     </div>
   )
